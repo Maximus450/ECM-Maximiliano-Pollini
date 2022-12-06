@@ -1,3 +1,10 @@
+let yourname = prompt("Enter your name");
+
+function saludar(yourname) {
+    console.log("Hola " + yourname);
+}
+saludar(yourname);
+
 let hour = prompt("Enter the time");
 
 if (hour >= 7 && hour < 13) {

@@ -122,6 +122,8 @@ const products = [
 ];
 
 const containerProducts = document.querySelector("#products-container");
+const buttonCategory = document.querySelectorAll(".button-category");
+const mainTittle = document.querySelector("#main-tittle");
 let addButton = document.querySelectorAll(".add-product");
 const number = document.querySelector("#number");
 
@@ -150,6 +152,25 @@ function addProducts(chosenproducts) {
 
 addProducts(products);
 
+buttonCategory.forEach(button => {
+    button.addEventListener("click", (e) => {
+
+        buttonCategory.forEach(button => button.classList.remove("active"));
+        e.currentTarget.classList.add("active");
+
+        if (e.currentTarget.id != "all") {
+            const productCategory = products.find(product => product.category.id === e.currentTarget.id);
+            mainTittle.innerText = productCategory.category.name;
+            const productsButton = products.filter(product => product.category.id === e.currentTarget.id);
+            addProducts(productsButton);
+        } else {
+            mainTittle.innerText = "Products";
+            addProducts(products);
+        }
+
+    })
+});
+
 function updateAddButton() {
     addButton = document.querySelectorAll(".add-product");
 
@@ -175,9 +196,9 @@ function addToCart(e) {
 
     if(productsOnCart.some(product => product.id === idButton)) {
         const index = productsOnCart.findIndex(product => product.id === idButton);
-        productsOnCart[index].amount++;
+        productsOnCart[index].ammount++;
     } else {
-        addedProduct.amount = 1;
+        addedProduct.ammount = 1;
         productsOnCart.push(addedProduct);
     }
 
@@ -187,6 +208,6 @@ function addToCart(e) {
 }
 
 function updateNumber() {
-    let newNumber = productsOnCart.reduce((acc, product) => acc + product.amount, 0);
+    let newNumber = productsOnCart.reduce((acc, product) => acc + product.ammount, 0);
     number.innerText = newNumber;
 }

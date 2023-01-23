@@ -13,8 +13,8 @@
   <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand button-category btn btn-outline-success" href="./index.html">Products</a>
-      <a class="btn btn-outline-success button-category active" href="./cart.html">
-        <i class="bi bi-cart-fill"></i> Cart
+      <a class="navbar-brand btn btn-outline-success" href="./cart.html">
+        <i class="bi bi-cart-fill"></i> Cart <span id="number" class="number">0</span>
       </a>
     </div>
   </nav>
@@ -38,11 +38,17 @@
       <p id="buyed-cart" class="buyed-cart disabled">Thanks for your purchase. <i class="bi bi-emoji-laughing"></i></p>
     </div>
   </main>
-  <footer class="navbar navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand">Contact</a>
+  <footer class="navbar navbar-dark bg-dark footer">
+    <div class="row container-fluid">
+        <div class="col-sm-2">
+            <a class="navbar-brand btn btn-outline-success" href="./contact.html">Contact</a>
+        </div>
+        <div class="col-sm-2 text-end">
+            <h1 class="fs-5 rights">All rights reserved</h1>
+        </div>
     </div>
   </footer>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="./js/cart.js"></script>
   <script src="./js/main.js"></script>
 </body>

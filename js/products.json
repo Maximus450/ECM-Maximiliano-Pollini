@@ -1,0 +1,122 @@
+[
+  { 
+    "id": "mouse-01", 
+    "name": "Logitech G502 Hero", 
+    "img": "./img/mouse/g502.png",
+    "category": {
+      "name": "Mouse",
+      "id": "mouse"
+    },
+    "price": 15739 
+  },
+  { 
+    "id": "mouse-02", 
+    "name": "Logitech G600 Gaming Black Rgb", 
+    "img": "./img/mouse/g600.png",
+    "category": {
+      "name": "Mouse",
+      "id": "mouse"
+    },
+    "price": 17156 
+  },
+  { 
+    "id": "mouse-03", 
+    "name": "Razer Deathadder v2 Lite", 
+    "img": "./img/mouse/Deathadder.png",
+    "category": {
+      "name": "Mouse",
+      "id": "mouse"
+    },
+    "price": 11911 
+  },
+  { 
+    "id": "mouse-04", 
+    "name": "Redragon M988 Storm Elite", 
+    "img": "./img/mouse/M988.png",
+    "category": {
+      "name": "Mouse",
+      "id": "mouse"
+    },
+    "price": 10658 
+  },
+  { 
+    "id": "keyboard-01", 
+    "name": "Hyperx Alloy Core Rgb", 
+    "img": "./img/keyboard/Hyperx.png",
+    "category": {
+      "name": "Keyboard",
+      "id": "keyboard"
+    },
+    "price": 12471 
+  },
+  { 
+    "id": "keyboard-02", 
+    "name": "Logitech G213 Prodigy Rgb Gaming", 
+    "img": "./img/keyboard/G213.png",
+    "category": {
+      "name": "Keyboard",
+      "id": "keyboard"
+    },
+    "price": 18285 
+  },
+  { 
+    "id": "keyboard-03", 
+    "name": "Genesis Thor 400 Rgb",  
+    "img": "./img/keyboard/Thor.png",
+    "category": {
+      "name": "Keyboard",
+      "id": "keyboard"
+    },
+    "price": 20174 
+  },
+  { 
+    "id": "keyboard-04", 
+    "name": "Redragon K580 Vata Pro Rgb",  
+    "img": "./img/keyboard/K580.png",
+    "category": {
+      "name": "Keyboard",
+      "id": "keyboard"
+    },
+    "price": 19999 
+  },
+  { 
+    "id": "headphones-01", 
+    "name": "Redragon H350 Pandora 7.1 Black Rgb",  
+    "img": "./img/headphones/H350.png",
+    "category": {
+      "name": "Headphones",
+      "id": "headphones"
+    },
+    "price": 12157 
+  },
+  { 
+    "id": "headphones-02", 
+    "name": "Logitech G335 Gaming Black",  
+    "img": "./img/headphones/G335.png",
+    "category": {
+      "name": "Headphones",
+      "id": "headphones"
+    },
+    "price": 19721 
+  },
+  { 
+    "id": "headphones-03", 
+    "name": "Kingston Hyperx Cloud Stinger Core 7.1 Wireless Pc",  
+    "img": "./img/headphones/Stinger.png",
+    "category": {
+      "name": "Headphones",
+      "id": "headphones"
+    },
+    "price": 25108 
+  },
+  { 
+    "id": "headphones-04", 
+    "name": "Genesis Selen 400 Wireless",  
+    "img": "./img/headphones/Selen.png",
+    "category": {
+      "name": "Headphones",
+      "id": "headphones"
+    },
+    "price": 26301 
+  }
+]

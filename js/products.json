@@ -2,7 +2,7 @@
   { 
     "id": "mouse-01", 
     "name": "Logitech G502 Hero", 
-    "img": "./img/mouse/g502.png",
+    "img": "./img/mouse/G502.png",
     "category": {
       "name": "Mouse",
       "id": "mouse"
@@ -12,7 +12,7 @@
   { 
     "id": "mouse-02", 
     "name": "Logitech G600 Gaming Black Rgb", 
-    "img": "./img/mouse/g600.png",
+    "img": "./img/mouse/G600.png",
     "category": {
       "name": "Mouse",
       "id": "mouse"
